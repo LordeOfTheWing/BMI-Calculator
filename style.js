@@ -4,7 +4,7 @@ b.addEventListener('click',()=>{
 			let h=document.getElementById('h').value;
 			let w=document.getElementById('w').value;
 
-			//Validation to restrict numbers to a reasonable rane
+			//Validation to restrict numbers to a reasonable range
 			if(h <= 0  || w<= 0 ){
 				alert("ERROR!!Please Enter Correct Range Of Values.")
 			}else{
