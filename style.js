@@ -5,7 +5,7 @@ b.addEventListener('click',()=>{
 			let w=document.getElementById('w').value;
 
 			//Validation to restrict numbers to a reasonable range
-			if(h <= 0  || w<= 0 ){
+			if(h <= 0  || w<= 0 || h>=223 || w>= 441){
 				alert("ERROR!!Please Enter Correct Range Of Values.")
 			}else{
 			let bmi=w/(h/100*h/100);
